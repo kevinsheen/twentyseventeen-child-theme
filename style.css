@@ -18,15 +18,30 @@ a {
 
 .social-navigation a:hover,
 .social-navigation a:focus {
-	background-color: goldenrod;
+	background-color: turquoise;
 }
 
 .main-navigation a:hover {
-	color: goldenrod;
+	color: turquoise;
+}
+
+.main-navigation a {
+	display: block;
+	padding: 0.3em 0;
+	text-decoration: none;
 }
 
 .site-content-contain {
-	background-color: green;
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 	position: relative;
+}
+
+.site-branding-text {
+    	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    	color: white;
+    	opacity: 0.95;
+	border-radius: 15px 50px;
+    	padding: 20px; 
+	box-shadow: 3px 3px 4px #000;
 }
 
