@@ -45,3 +45,6 @@ a {
 	box-shadow: 3px 3px 4px #000;
 }
 
+.entry-title {
+	text-shadow: 1px 1px 1px #000;
+}
